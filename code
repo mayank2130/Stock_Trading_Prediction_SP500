@@ -105,3 +105,6 @@ predictions["Predictions"].value_counts()
 precision_score(predictions["Target"], predictions["Predictions"])
 predictions["Target"].value_counts() / predictions.shape[0]
 predictions
+
+
+# Here we achieve a precisison score of 63%. 
